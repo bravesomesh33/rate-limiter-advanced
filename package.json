@@ -1,0 +1,22 @@
+{
+  "name": "rate-limiter-advanced",
+  "version": "1.0.2",
+  "description": "A rate limiter middleware for Node.js using Redis",
+  "main": "rateLimiter.js",
+  "type": "module",
+  "dependencies": {
+    "rate-limiter-flexible": "^2.3.5",
+    "moment": "^2.29.1",
+    "redis": "^3.1.2",
+    "util": "^0.12.4",
+    "jsend": "^2.0.0"
+  },
+  "keywords": [
+    "rate limiter",
+    "redis",
+    "middleware",
+    "nodejs"
+  ],
+  "author": "Somesh Vyas",
+  "license": "ISC"
+}
